@@ -1,0 +1,30 @@
+ /* styles.css */
+
+/* Flexbox CSS for About Page */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.about-section {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+   
